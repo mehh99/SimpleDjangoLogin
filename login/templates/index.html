@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block body %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>TES </h2>
+    <p><p>New user? <a href="{% url 'auth:register' %}">Click here to register</a>.</p></p>
+</html>
+{% endblock %}
